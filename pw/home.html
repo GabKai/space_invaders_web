@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link href="space.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div>
+                    <div onclick="logoff()"><img class="user floatM" src="res/user.png"></div>
+                </div>
+                <div class="titlebox" id="alterar">
+                    <h1>Space Invaders</h1>
+                    <!--<a>{{email}}</a>-->
+                </div>
+            </header>
+            <div>
+                <div class="buttonbox">
+                    <a href="game.html">Jogar</a>
+                </div>
+                <div class="boxhome">
+                    <h2>Ranking Semanal</h2>
+                   <!-- <label for="points">Analisar o ranking (1 a 10000 jogadores):</label>
+                    <input type="range" id="points" name="points" min="0" max="10"> -->
+                    <div class="ranking">
+                        <ul id="rankingList">
+                        </ul>
+                    </div>
+                    <div>
+                       <!-- <video controls>
+                            <source src="res/video.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video> -->
+                    </div>
+                </div>
+            </div>
+            <footer class="embaixo"> 
+                <p>Desenvolvido por CEFET-MG</p>
+                <p>Programa de Gabriel Kaizer e Carlos Matheus</p>
+            </footer>
+        </div>
+        <div id="overlay"></div>
+        <script src="space.js"></script>
+    </body>
+</html>

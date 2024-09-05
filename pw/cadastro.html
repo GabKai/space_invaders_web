@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastro</title>
+        <link href="space.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="titlebox">
+                    <h2>Space Invaders Cadastro</h2>
+                </div>
+            </header>
+            <!--<img class="alien2 floatR" src="res/alien.png">-->
+            <div id="feedback" class="feedback"></div>
+            <div id="mensagemErro-container" class="mensagemErro-container"></div>
+            <form class="box" id="formCadastro">
+               <!-- <div class="input">
+                    <label>Usuario</label>
+                    <input type="text" name="usu" id="usu">
+                </div> -->
+                <div class="input">
+                    <label>Email</label>
+                    <input type="text" name="emailusu" id="emailusu">
+                </div>
+                <div class="input">
+                    <label>Senha</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="input">
+                    <label>Nick</label>
+                    <input type="text" name="nick" id="nick">
+                </div>
+                <!--<label for="birthday">Data de Nascimento:</label>
+                <input type="date" id="birthday" name="birthday"> -->
+                <div>
+                    <div class="button">
+                        <a href="#" onclick="registerUser(); return false;">Cadastrar</a>
+                    </div>
+                    <div class="button">
+                        <a href="login.html">Ja tenho uma Conta</a>
+                    </div>
+                </div>
+            </form>
+            <!--<img class="alien3 floatL" src="res/alien.png"> -->
+            <footer class="embaixo"> 
+                <p>Desenvolvido por CEFET-MG</p>
+                <p>Programa de Gabriel Kaizer e Carlos Matheus</p>
+            </footer>
+        </div>
+        <div id="overlay"></div>
+        <script src="space.js"></script>
+    </body>
+</html>

@@ -1,0 +1,438 @@
+*{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.mudado{
+    background-color: purple;
+}
+
+body {
+    background-image: url("res/space.jpg");
+}
+
+a {
+    text-decoration: none;
+}
+
+form input{
+    width: 90%;
+}
+
+footer {
+    background-color: #3c0969;
+}
+
+footer p{
+    padding: 3px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+dialog{
+    display:flex;
+    color:black;
+}
+
+#birthday{
+    color:black;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-size: 14px;
+    position: absolute;
+    left: 42%;
+}
+
+.mensagemErro-container {
+    margin-top: 10px;
+    font-size: 14px;
+    position: absolute;
+    left: 42%;
+}
+
+/*.box{
+    margin-top: 20%;
+    margin-left: 10%;
+    background-color: #3c0969;
+    border: 1px dashed blueviolet;
+    width: 80%;
+    padding: 5px;
+}*/
+
+/*.ranking{
+    margin: auto;
+    background-color: #e2db7d;
+    border: 1px dashed blueviolet;
+    width: 95%;
+}*/
+
+
+.ranking p{
+    color:#3c0969;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+}
+
+.container * header{
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.button{
+    width: 50%;
+    height: 25%;
+    font-size: large;
+    background-color: #3c0969;
+    border: 1px outset blueviolet;
+    border-radius: 3px;
+    color:white;
+    margin-top: 5%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.button a{
+    display: block;
+}
+
+ul{
+    height: 150px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+ul li{
+    color: black;
+}
+
+/*.titlebox{
+    padding-top: 30px;
+}
+
+.titlebox h1 {
+    font-size: 50px;
+    margin-top: 20px;;
+}*/
+
+.embaixo{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.alien{
+    width: 120px;
+    height: 80px;
+    margin-top: 25%;
+}
+
+.alien2{
+    width: 120px;
+    height: 80px;
+    margin-top: -5%;
+}
+
+.alien3{
+    width: 120px;
+    height: 80px;
+    margin-top: 5%;
+}
+
+.user{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    border-radius: 40px;
+}
+
+.input{
+    border: 1px dashed blueviolet;
+    border-radius: 3px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.box2{
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: #3c0969;
+    border: 1px dashed blueviolet;
+    width: 80%;
+    padding: 5px;
+}
+
+.ranking{
+    margin: auto;
+    background-color: #e2db7d;
+    border: 1px dashed blueviolet;
+    width: 95%;
+    
+}
+
+.box input{
+    color: black;
+}
+
+.inputbox {
+    border: 1px dashed blueviolet;
+    border-radius: 3px;
+    width: 20%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+/*celular 390 por 844*/
+@media screen and (max-width: 600px){
+    h1{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 20px;
+        box-shadow: 1px 10px 50px black;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 0%;
+    }
+
+    .invbox{
+        margin-top: 75%;
+    }
+
+    footer p{
+        padding: 3px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .box{
+        margin-top: 30%;
+        margin-left: 10%;
+        background-color: #3c0969;
+        border: 1px dashed blueviolet;
+        border-radius: 3px;
+        width: 80%;
+        padding: 5px;
+    }
+
+    .boxhome{
+        margin-top: 10%;
+        margin-left: 10%;
+        background-color: #3c0969;
+        border: 1px dashed blueviolet;
+        border-radius: 3px;
+        width: 80%;
+        padding: 5px;
+    }
+
+    .buttonbox{
+        width: 55%;
+        height: 50px;
+        font-size: large;
+        background-color: #3c0969;
+        border: 1px outset blueviolet;
+        border-radius: 3px;
+        color:white;
+        margin-top: 5%;
+        margin: auto;
+        margin-top: 5%;
+    }
+}
+
+/*tablet 1024 por 1366*/
+@media screen and (min-width: 600px){
+    h1{
+        text-align: center;
+        font-size: 100px;
+        margin-top: 20px;
+        box-shadow: 1px 10px 50px black;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 20px;
+        box-shadow: 1px 10px 50px black;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 0%;
+    }
+
+    .floatL{
+        width: 120px;
+        height: 80px;
+        margin-top: 10%;
+    }
+
+    .floatR{
+        width: 120px;
+        height: 80px;
+        margin-top: 5%;
+    }
+
+    .button{
+        font-size: 2rem;
+    }
+
+    .invbox{
+        margin-top: 40%;
+    }
+
+    footer p{
+        padding: 3px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .box{
+        margin-top: 10%;
+        margin-left: 10%;
+        background-color: #3c0969;
+        border: 1px dashed blueviolet;
+        border-radius: 3px;
+        width: 80%;
+        padding: 5px;
+    }
+
+    .boxhome{
+        margin-top: 5%;
+        margin-left: 20%;
+        background-color: #3c0969;
+        border: 1px dashed blueviolet;
+        border-radius: 3px;
+        width: 60%;
+        padding: 5px;
+    }
+
+    .buttonbox{
+        width: 25%;
+        height: 50px;
+        font-size: large;
+        background-color: #3c0969;
+        border: 1px outset blueviolet;
+        border-radius: 3px;
+        color:white;
+        margin-top: 5%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+}
+
+/*notebook 1280 por 800*/
+@media screen and (min-width: 1280px){
+    h1{
+        text-align: center;
+        font-size: 120px;
+        margin-top: 20px;
+        box-shadow: 1px 10px 50px black;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 60px;
+        margin-top: 20px;
+        box-shadow: 1px 10px 50px black;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 0%;
+    }
+
+    .button a{
+        font-size: 2rem;
+    }
+
+    .invbox{
+        margin-top: 15%;
+    }
+
+    .floatL{
+        width: 120px;
+        height: 80px;
+        margin-top: 10%;
+    }
+
+    .floatR{
+        width: 120px;
+        height: 80px;
+        margin-top: 5%;
+    }
+
+    .box{
+        margin-top: 10%;
+        margin-left: 30%;
+        background-color: #3c0969;
+        border: 1px dashed blueviolet;
+        border-radius: 3px;
+        width: 40%;
+        padding: 5px;
+    }
+
+    .boxhome{
+        margin-top: 5%;
+        margin-left: 30%;
+        background-color: #3c0969;
+        border: 1px dashed blueviolet;
+        border-radius: 3px;
+        width: 40%;
+        padding: 5px;
+    }
+
+    .buttonbox{
+        width: 25%;
+        height: 50px;
+        font-size: large;
+        background-color: #3c0969;
+        border: 1px outset blueviolet;
+        border-radius: 3px;
+        color:white;
+        margin-top: 5%;
+        margin: auto;
+        margin-top: 5%;
+    }
+}
+
+/*video{
+    margin: auto;
+    margin-top: 10%;
+    width: 85%;
+    height: 70%;
+}*/
+
+.floatR{
+    float:right;
+}
+
+.floatL{
+    float:left;
+}
+
+.floatM{
+    float:left;
+    width: 40px;
+    height: 40px;
+    opacity: 60%;
+}
+
